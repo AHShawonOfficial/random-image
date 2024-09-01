@@ -1,0 +1,19 @@
+GET https://api.unsplash.com/photos/random
+?query=cute baby
+&orientation=landscape
+&content_filter=high
+&count=1
+Authorization: Client-ID My4yAZq9n5OzWsnaDV9_tYfKeXqzwcXPWhAqg0UmFj4
+Content-Type: application/json
+
+###
+GET https://api.api-ninjas.com/v1/randomimage
+?category=nature
+X-Api-Key: LBK0rXxCWM/1kdYawviiMg==Kg4isXpwvhliGu8c
+Accept: image/jpeg
+
+###
+GET https://picsum.photos/1920/1080
+
+###
+GET https://random-image-pepebigotes.vercel.app/api/random-image
